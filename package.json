@@ -4,6 +4,7 @@
   "description": "PeerJS website",
   "scripts": {
     "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "build": "rm -rf out dist && cp -r public out && node ejs.js && parcel build out/*.html out/docs/*.html"
   },
   "repository": "https://github.com/peers/peerjs.com",

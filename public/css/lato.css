@@ -4,7 +4,8 @@
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/lato-v22-latin-ext_latin-regular.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("../fonts/lato-v22-latin-ext_latin-regular.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/lato-v22-latin-ext_latin-regular.woff2")
@@ -22,7 +23,8 @@
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/lato-v22-latin-ext_latin-700.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("../fonts/lato-v22-latin-ext_latin-700.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/lato-v22-latin-ext_latin-700.woff2")
@@ -40,7 +42,8 @@
   font-style: italic;
   font-weight: 900;
   src: url("../fonts/lato-v22-latin-ext_latin-900italic.eot"); /* IE9 Compat Modes */
-  src: local(""),
+  src:
+    local(""),
     url("../fonts/lato-v22-latin-ext_latin-900italic.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/lato-v22-latin-ext_latin-900italic.woff2")

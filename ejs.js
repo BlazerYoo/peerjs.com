@@ -17,7 +17,7 @@ function render(file, data) {
           }
           //file written successfully
         });
-      }
+      },
     );
   });
 }

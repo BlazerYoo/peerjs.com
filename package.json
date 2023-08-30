@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "parcel": "^2.8.0",
-    "prettier": "~2"
+    "prettier": "~3.0.0"
   },
   "browserslist": "cover 99.5%"
 }

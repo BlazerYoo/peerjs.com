@@ -1,7 +1,7 @@
 const ejs = require("ejs");
 const fs = require("fs");
 
-const PEERJS_VERSION = "1.4.7";
+const PEERJS_VERSION = "1.5.0";
 
 function render(file, data) {
   ejs.renderFile("./views/" + file + ".ejs", data, {}, (err, str) => {
@@ -21,6 +21,7 @@ function render(file, data) {
     );
   });
 }
+
 render("index", {
   page: "home",
   version: PEERJS_VERSION,
@@ -34,3 +35,17 @@ render("peerserver", {
 });
 render("team", { page: "team", title: "PeerJS - Team" });
 render("404", {});
+ejs.renderFile(
+  "./public/docs/index.ejs",
+  { version: PEERJS_VERSION },
+  {},
+  (err, str) => {
+    fs.writeFile(`out/docs/index.html`, str, (err) => {
+      if (err) {
+        console.error(err);
+        return;
+      }
+      //file written successfully
+    });
+  },
+);
